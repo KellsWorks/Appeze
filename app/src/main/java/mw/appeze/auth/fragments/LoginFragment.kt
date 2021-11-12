@@ -6,11 +6,12 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import mw.appeze.R
 import mw.appeze.databinding.FragmentLoginBinding
 import mw.appeze.utils.AsteriskPasswordTransformationMethod
 
-class LoginFragment : Fragment() {
+open class LoginFragment : Fragment() {
 
     private lateinit var loginBinding: FragmentLoginBinding
 
@@ -20,6 +21,8 @@ class LoginFragment : Fragment() {
     ): View{
 
         loginBinding = FragmentLoginBinding.inflate(inflater, container, false)
+        loginBinding.fragment = this@LoginFragment
+
         return loginBinding.root
     }
 
@@ -36,6 +39,20 @@ class LoginFragment : Fragment() {
             loginBinding.loginAsSpinner.adapter = adapter
 
         }
+
+        loginBinding.loginPassword.transformationMethod = AsteriskPasswordTransformationMethod()
+    }
+
+    open fun toRegister(view: View){
+        findNavController().navigate(R.id.login_to_register)
+    }
+
+    open fun toForgotPassword(view: View){
+        findNavController().navigate(R.id.login_to_forgotPassword)
+    }
+
+    override fun onViewStateRestored(savedInstanceState: Bundle?) {
+        super.onViewStateRestored(savedInstanceState)
 
         loginBinding.loginPassword.transformationMethod = AsteriskPasswordTransformationMethod()
     }

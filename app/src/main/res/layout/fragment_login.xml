@@ -3,6 +3,11 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <data>
+        <variable
+            name="fragment"
+            type="mw.appeze.auth.fragments.LoginFragment" />
+    </data>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -96,28 +101,36 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="@string/continueToLogin"
-                android:background="@color/blue_500"
+                app:cornerRadius="3dp"
+                android:id="@+id/continueToLogin"
                 android:textAllCaps="false"
-                android:padding="5dp"
+                android:padding="10dp"
                 app:icon="@drawable/ic_lock"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:weightSum="2"
-                android:layout_marginTop="10dp"
                 >
-                <TextView
+                <Button
                     android:layout_weight="1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textAllCaps="true"
+                    android:textColor="#969696"
+                    android:id="@+id/toRegister"
+                    android:onClick="@{fragment.toRegister}"
+                    style="@style/Widget.AppCompat.Button.Borderless"
                     android:text="@string/register"/>
-                <TextView
+                <Button
                     android:layout_weight="1"
                     android:textAlignment="textEnd"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/forgotPassword"
+                    android:id="@+id/toForgotPassword"
+                    android:onClick="@{fragment.toForgotPassword}"
+                    style="@style/Widget.AppCompat.Button.Borderless"
                     android:textColor="@color/blue_500"
                     android:gravity="end" />
             </LinearLayout>
