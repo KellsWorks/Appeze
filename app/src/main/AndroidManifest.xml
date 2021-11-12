@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Appeze">
         <activity
+            android:name=".ui.OnboardingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.user.UserActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.agent.AgentActivity"
+            android:exported="true" />
+        <activity
             android:name=".auth.AuthActivity"
             android:exported="true" />
         <activity

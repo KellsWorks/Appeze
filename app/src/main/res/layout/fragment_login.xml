@@ -73,6 +73,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/emailAddress"
+                    android:autofillHints="emailAddress"
+                    android:inputType="textEmailAddress"
                     android:id="@+id/loginEmail"
                     android:textSize="14sp"
                     />
@@ -103,6 +105,7 @@
                 android:text="@string/continueToLogin"
                 app:cornerRadius="3dp"
                 android:id="@+id/continueToLogin"
+                android:onClick="@{fragment.processLogin}"
                 android:textAllCaps="false"
                 android:padding="10dp"
                 app:icon="@drawable/ic_lock"/>
@@ -119,6 +122,8 @@
                     android:textAllCaps="true"
                     android:textColor="#969696"
                     android:id="@+id/toRegister"
+                    android:textAlignment="textStart"
+                    android:gravity="start"
                     android:onClick="@{fragment.toRegister}"
                     style="@style/Widget.AppCompat.Button.Borderless"
                     android:text="@string/register"/>

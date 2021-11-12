@@ -1,5 +1,6 @@
 package mw.appeze.auth.fragments
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -9,6 +10,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import mw.appeze.R
 import mw.appeze.databinding.FragmentLoginBinding
+import mw.appeze.ui.agent.AgentActivity
 import mw.appeze.utils.AsteriskPasswordTransformationMethod
 
 open class LoginFragment : Fragment() {
@@ -49,6 +51,15 @@ open class LoginFragment : Fragment() {
 
     open fun toForgotPassword(view: View){
         findNavController().navigate(R.id.login_to_forgotPassword)
+    }
+
+    open fun processLogin(view: View){
+        startActivity(
+            Intent(
+            requireActivity(),
+            AgentActivity::class.java
+        )
+        )
     }
 
     override fun onViewStateRestored(savedInstanceState: Bundle?) {

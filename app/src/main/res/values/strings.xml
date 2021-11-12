@@ -10,6 +10,7 @@
     <string name="register">Register</string>
     <string name="forgotPassword">Forgot password</string>
     <string name="appIcon">app icon</string>
+    <string name="agent">Agent</string>
 
     <string-array name="logInAsList">
         <item>Appeze agent</item>
