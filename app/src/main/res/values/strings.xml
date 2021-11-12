@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Appeze</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="banner">Find a handy man through out Malawi, one account, all appeze</string>
     <string name="loginAs">Log in as</string>
@@ -8,12 +7,19 @@
     <string name="password">Password</string>
     <string name="emailAddress">Email address</string>
     <string name="register">Register</string>
-    <string name="forgotPassword">Forgot password</string>
+    <string name="forgotPassword">Forgot password?</string>
     <string name="appIcon">app icon</string>
     <string name="agent">Agent</string>
+    <string name="getStarted">Get started</string>
+    <string name="onBoardingBanner">Welcome to Appeze, you can use appeze as an agent or customer.</string>
+    <string name="handyman">Handyman</string>
+    <string name="resetPasswordBanner">Let\'s get you back on track by resetting your password. It takes 2 – 3 minutes</string>
+    <string name="messages">Messages</string>
+    <string name="more">More</string>
 
     <string-array name="logInAsList">
         <item>Appeze agent</item>
         <item>Appeze user</item>
     </string-array>
+
 </resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/agent_bottom_nav"
+    app:startDestination="@id/handymanFragment">
+
+    <fragment
+        android:id="@+id/handymanFragment"
+        android:name="mw.appeze.ui.agent.fragments.HandymanFragment"
+        android:label="fragment_handyman"
+        tools:layout="@layout/fragment_handyman" />
+</navigation>

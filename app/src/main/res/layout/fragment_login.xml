@@ -119,7 +119,7 @@
                     android:layout_weight="1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textAllCaps="true"
+                    android:textAllCaps="false"
                     android:textColor="#969696"
                     android:id="@+id/toRegister"
                     android:textAlignment="textStart"
@@ -127,17 +127,19 @@
                     android:onClick="@{fragment.toRegister}"
                     style="@style/Widget.AppCompat.Button.Borderless"
                     android:text="@string/register"/>
+
                 <Button
-                    android:layout_weight="1"
-                    android:textAlignment="textEnd"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/forgotPassword"
                     android:id="@+id/toForgotPassword"
-                    android:onClick="@{fragment.toForgotPassword}"
                     style="@style/Widget.AppCompat.Button.Borderless"
-                    android:textColor="@color/blue_500"
-                    android:gravity="end" />
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:onClick="@{fragment.toForgotPassword}"
+                    android:text="@string/forgotPassword"
+                    android:textAlignment="textEnd"
+                    android:textAllCaps="false"
+                    android:textColor="@color/blue_500" />
             </LinearLayout>
 
         </LinearLayout>

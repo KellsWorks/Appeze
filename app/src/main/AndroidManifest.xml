@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Appeze">
         <activity
-            android:name=".ui.OnboardingActivity"
+            android:name=".ui.OnBoardingActivity"
             android:exported="true" />
         <activity
             android:name=".ui.user.UserActivity"

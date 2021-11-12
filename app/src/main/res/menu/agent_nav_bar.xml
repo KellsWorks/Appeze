@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/handymanFragment"
+    android:title="@string/handyman"
+    android:icon="@drawable/ic_briefcase_outline"
+    />
+    <item
+        android:id="@+id/messages"
+        android:title="@string/messages"
+        android:icon="@drawable/ic_chatbubble_ellipses_outline"
+        />
+    <item
+        android:id="@+id/more"
+        android:title="@string/more"
+        android:icon="@drawable/ic_ellipsis_horizontal_outline"
+        />
+</menu>
