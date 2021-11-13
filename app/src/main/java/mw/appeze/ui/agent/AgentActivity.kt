@@ -3,7 +3,10 @@ package mw.appeze.ui.agent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
+import androidx.navigation.NavHostController
+import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
+import androidx.navigation.ui.setupWithNavController
 import mw.appeze.R
 import mw.appeze.databinding.ActivityAgentBinding
 
@@ -18,6 +21,7 @@ class AgentActivity : AppCompatActivity() {
         agentBinding = DataBindingUtil.setContentView(this, R.layout.activity_agent)
 
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.agent_nav_fragment) as NavHostFragment
-        navHostFragment.navController
+
+        agentBinding.bottomNav.setupWithNavController(navHostFragment.navController)
     }
 }

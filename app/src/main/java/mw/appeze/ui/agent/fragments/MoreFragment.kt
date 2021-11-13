@@ -7,14 +7,15 @@ import android.view.View
 import android.view.ViewGroup
 import mw.appeze.R
 
-class HandymanFragment : Fragment() {
+
+class MoreFragment : Fragment() {
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-
-        return inflater.inflate(R.layout.fragment_handyman, container, false)
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.fragment_more, container, false)
     }
-
 }
