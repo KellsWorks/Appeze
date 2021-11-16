@@ -20,4 +20,9 @@
         android:name="mw.appeze.ui.agent.fragments.MoreFragment"
         android:label="fragment_more"
         tools:layout="@layout/fragment_more" />
+    <fragment
+        android:id="@+id/projectsFragment"
+        android:name="mw.appeze.ui.agent.fragments.ProjectsFragment"
+        android:label="fragment_projects"
+        tools:layout="@layout/fragment_projects" />
 </navigation>

@@ -16,8 +16,9 @@
     <string name="resetPasswordBanner">Let\'s get you back on track by resetting your password. It takes 2 – 3 minutes</string>
     <string name="messages">Messages</string>
     <string name="more">More</string>
-    <string name="projects">Projects</string>
+    <string name="projects">My projects</string>
     <string name="jobs">Jobs</string>
+    <string name="search">Search</string>
 
     <string-array name="logInAsList">
         <item>Appeze agent</item>

@@ -6,7 +6,7 @@
     android:icon="@drawable/ic_briefcase_outline"
     />
     <item
-        android:id="@+id/projects"
+        android:id="@+id/projectsFragment"
         android:title="@string/projects"
         android:icon="@drawable/ic_file_tray_full_outline"
         />
