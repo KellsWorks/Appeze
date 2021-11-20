@@ -19,6 +19,8 @@
     <string name="projects">My projects</string>
     <string name="jobs">Jobs</string>
     <string name="search">Search</string>
+    <string name="your_location">Your location</string>
+    <string name="wishlist">Wishlist</string>
 
     <string-array name="logInAsList">
         <item>Appeze agent</item>

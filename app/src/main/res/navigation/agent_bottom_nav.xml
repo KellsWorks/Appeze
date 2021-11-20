@@ -8,8 +8,8 @@
     <fragment
         android:id="@+id/jobsFragment"
         android:name="mw.appeze.ui.agent.fragments.JobsFragment"
-        android:label="fragment_handyman"
-        tools:layout="@layout/fragment_handyman" />
+        android:label="fragment_jobs"
+        tools:layout="@layout/fragment_jobs" />
     <fragment
         android:id="@+id/messagesFragment"
         android:name="mw.appeze.ui.agent.fragments.MessagesFragment"

@@ -14,7 +14,7 @@ class JobsFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        return inflater.inflate(R.layout.fragment_handyman, container, false)
+        return inflater.inflate(R.layout.fragment_jobs, container, false)
     }
 
 }
