@@ -21,6 +21,7 @@
     <string name="search">Search</string>
     <string name="your_location">Your location</string>
     <string name="wishlist">Wishlist</string>
+    <string name="notifications">Notifications</string>
 
     <string-array name="logInAsList">
         <item>Appeze agent</item>

@@ -1,17 +1,24 @@
 package mw.appeze
 
-import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import mw.appeze.auth.AuthActivity
-import mw.appeze.ui.OnBoardingActivity
+import androidx.appcompat.app.AppCompatActivity
+import androidx.navigation.fragment.NavHostFragment
+import androidx.navigation.ui.NavigationUI
+import mw.appeze.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+
+    private lateinit var mainBinding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
 
-        startActivity(Intent(this@MainActivity, AuthActivity::class.java))
+        mainBinding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(mainBinding.root)
+
+        val navHostFragment = supportFragmentManager.findFragmentById(R.id.agent_nav_fragment) as NavHostFragment
+
+        NavigationUI.setupWithNavController(mainBinding.bottomNav, navHostFragment.navController)
 
     }
 }

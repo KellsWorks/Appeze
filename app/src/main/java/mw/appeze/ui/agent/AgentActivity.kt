@@ -2,7 +2,6 @@ package mw.appeze.ui.agent
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.databinding.DataBindingUtil
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.NavigationUI
 import mw.appeze.R
@@ -16,15 +15,13 @@ class AgentActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_agent)
 
-        agentBinding = DataBindingUtil.setContentView(this, R.layout.activity_agent)
-
-    }
-
-    override fun onStart() {
-        super.onStart()
+        agentBinding = ActivityAgentBinding.inflate(layoutInflater)
+        setContentView(agentBinding.root)
 
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.agent_nav_fragment) as NavHostFragment
 
         NavigationUI.setupWithNavController(agentBinding.bottomNav, navHostFragment.navController)
+
     }
+
 }

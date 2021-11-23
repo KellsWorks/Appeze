@@ -30,10 +30,10 @@
         <androidx.fragment.app.FragmentContainerView
             android:id="@+id/agent_nav_fragment"
             android:name="androidx.navigation.fragment.NavHostFragment"
-            app:defaultNavHost="true"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="55dp"
+            app:defaultNavHost="true"
             app:navGraph="@navigation/agent_bottom_nav" />
 
         <com.google.android.material.bottomnavigation.BottomNavigationView

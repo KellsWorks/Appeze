@@ -9,5 +9,11 @@
         app:showAsAction="always"
          />
 
+    <item
+        android:id="@+id/app_bar_notifications"
+        android:icon="@drawable/ic_bell"
+        android:title="@string/notifications"
+        app:showAsAction="ifRoom"
+        />
 
 </menu>

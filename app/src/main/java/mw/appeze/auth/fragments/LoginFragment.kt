@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
+import mw.appeze.MainActivity
 import mw.appeze.R
 import mw.appeze.databinding.FragmentLoginBinding
 import mw.appeze.ui.agent.AgentActivity
@@ -57,7 +58,7 @@ open class LoginFragment : Fragment() {
         startActivity(
             Intent(
             requireActivity(),
-            AgentActivity::class.java
+            MainActivity::class.java
         )
         )
     }
