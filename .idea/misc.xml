@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/FGD/AppData/Local/Android/Sdk/platforms/android-30/data/res/layout/simple_spinner_dropdown_item.xml" value="0.1" />
         <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/drawable/bg_gradient.xml" value="0.12604166666666666" />
         <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/drawable/ic_bell.xml" value="0.20925925925925926" />
         <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/drawable/ic_briefcase_outline.xml" value="0.240625" />
@@ -20,14 +21,16 @@
         <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/drawable/tab_background.xml" value="0.240625" />
         <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/layout/activity_agent.xml" value="0.33" />
         <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/layout/activity_auth.xml" value="0.10989583333333333" />
-        <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/layout/activity_main.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/layout/activity_onboarding.xml" value="0.25" />
         <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/layout/activity_user.xml" value="0.10989583333333333" />
         <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/layout/fragment_forgot_password.xml" value="0.5" />
         <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/layout/fragment_handyman.xml" value="0.328149300155521" />
-        <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/layout/fragment_jobs.xml" value="0.1" />
+        <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/layout/fragment_jobs.xml" value="0.11744266851980542" />
         <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/layout/fragment_login.xml" value="0.24477958236658934" />
-        <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/layout/fragment_projects.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/layout/fragment_messages.xml" value="0.33" />
+        <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/layout/fragment_more.xml" value="0.5" />
+        <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/layout/fragment_projects.xml" value="0.25" />
         <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/menu/agent_app_bar.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/menu/agent_nav_bar.xml" value="0.22447916666666667" />
       </map>

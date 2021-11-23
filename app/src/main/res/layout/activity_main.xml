@@ -21,9 +21,10 @@
                 android:minHeight="?attr/actionBarSize"
                 android:theme="?attr/actionBarTheme"
                 app:title="@string/app_name"
+                android:drawableEnd="@drawable/icon"
                 app:titleTextColor="@color/white"
                 app:menu="@menu/agent_app_bar"
-                />
+                android:drawableRight="@drawable/icon" />
 
         </com.google.android.material.appbar.AppBarLayout>
 

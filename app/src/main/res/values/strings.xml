@@ -22,6 +22,26 @@
     <string name="your_location">Your location</string>
     <string name="wishlist">Wishlist</string>
     <string name="notifications">Notifications</string>
+    <string name="viewMyProfile">View my profile</string>
+    <string name="userName">Kells Kamuzu</string>
+    <string name="myBalance">My Balance</string>
+    <string name="mk50_000">MK50,000.00</string>
+    <string name="view_transfer_history">View transfer history</string>
+    <string name="make_the_transfer_to_your_bank">Make the transfer to your bank</string>
+    <string name="payments">Payments</string>
+    <string name="icon">icon</string>
+    <string name="aa">Airtel money: Phone number ends with *92</string>
+    <string name="tnm_mpamba_phone_ends_with_11">TNM Mpamba: Phone ends with *11</string>
+    <string name="payout">Payout</string>
+    <string name="other">Other</string>
+    <string name="help_amp_support"><![CDATA[Help & Support]]></string>
+    <string name="privacy_and_policy">Privacy and Policy</string>
+    <string name="terms_and_condition">Terms and condition</string>
+    <string name="contacts">Contacts</string>
+    <string name="in_progress">In Progress</string>
+    <string name="in_past">In Past</string>
+    <string name="yourLocation">Your location</string>
+    <string name="showMore">Show more</string>
 
     <string-array name="logInAsList">
         <item>Appeze agent</item>

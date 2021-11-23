@@ -14,5 +14,6 @@ class AuthActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         authBinding = DataBindingUtil.setContentView(this, R.layout.activity_auth)
+
     }
 }
