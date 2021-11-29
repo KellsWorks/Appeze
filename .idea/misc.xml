@@ -7,10 +7,13 @@
         <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/drawable/bg_gradient.xml" value="0.12604166666666666" />
         <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/drawable/ic_bell.xml" value="0.20925925925925926" />
         <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/drawable/ic_briefcase_outline.xml" value="0.240625" />
+        <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/drawable/ic_calendar.xml" value="0.10416666666666667" />
         <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/drawable/ic_chatbubble_ellipses_outline.xml" value="0.240625" />
+        <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/drawable/ic_dollar_sign.xml" value="0.240625" />
         <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/drawable/ic_ellipsis_horizontal_outline.xml" value="0.240625" />
         <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/drawable/ic_file_tray_full_outline.xml" value="0.12604166666666666" />
         <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/drawable/ic_lock.xml" value="0.240625" />
+        <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/drawable/ic_map_pin.xml" value="0.10416666666666667" />
         <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/drawable/ic_search_outline.xml" value="0.240625" />
         <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/drawable/selector_tab.xml" value="0.240625" />
         <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/drawable/shape_tab_selected.xml" value="0.240625" />
@@ -26,7 +29,7 @@
         <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/layout/activity_user.xml" value="0.10989583333333333" />
         <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/layout/fragment_forgot_password.xml" value="0.5" />
         <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/layout/fragment_handyman.xml" value="0.328149300155521" />
-        <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/layout/fragment_jobs.xml" value="0.11744266851980542" />
+        <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/layout/fragment_jobs.xml" value="0.13141524105754276" />
         <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/layout/fragment_login.xml" value="0.24477958236658934" />
         <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/layout/fragment_messages.xml" value="0.33" />
         <entry key="..\:/Users/FGD/Documents/GitHub/Appeze/app/src/main/res/layout/fragment_more.xml" value="0.5" />

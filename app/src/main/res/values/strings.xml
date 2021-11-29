@@ -33,7 +33,6 @@
     <string name="aa">Airtel money: Phone number ends with *92</string>
     <string name="tnm_mpamba_phone_ends_with_11">TNM Mpamba: Phone ends with *11</string>
     <string name="payout">Payout</string>
-    <string name="other">Other</string>
     <string name="help_amp_support"><![CDATA[Help & Support]]></string>
     <string name="privacy_and_policy">Privacy and Policy</string>
     <string name="terms_and_condition">Terms and condition</string>
@@ -42,6 +41,19 @@
     <string name="in_past">In Past</string>
     <string name="yourLocation">Your location</string>
     <string name="showMore">Show more</string>
+    <string name="categories">Categories</string>
+    <string name="babysitter">Babysitter</string>
+    <string name="cleaning">Cleaning</string>
+    <string name="repair">Repair</string>
+    <string name="moving">Moving</string>
+    <string name="setting_up">Setting up</string>
+    <string name="gardening">Gardening</string>
+    <string name="other">Other</string>
+    <string name="need_a_handyman_to_fix_my_toilet">Need a handyman to fix my toilet</string>
+    <string name="_2_hours_ago">2 hours ago</string>
+    <string name="mk12_500_00">MK12,500</string>
+    <string name="ndirande_blantyre">Ndirande, Blantyre</string>
+    <string name="_3_days_left">3 days left</string>
 
     <string-array name="logInAsList">
         <item>Appeze agent</item>
